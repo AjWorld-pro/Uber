@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber</title>
+    <link rel="stylesheet" href="p5.css">
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <div class="logo">Uber</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#ride">Ride</a></li>
+        <li><a href="#drive">Drive</a></li>
+        <li><a href="#eats">Uber Eats</a></li>
+
+        <!-- Dropdown menu for About -->
+        <li class="dropdown">
+          <a href="#about" class="dropbtn">About</a>
+          <ul class="dropdown-content">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our offerings</a></li>
+            <li><a href="#">How Uber works</a></li>
+            <li><a href="#">Sustainability</a></li>
+
+            <!-- Sub dropdown for Explore -->
+            <li class="dropdown-sub">
+              <a href="#">Explore</a>
+              <ul class="dropdown-subcontent">
+                <li><a href="#">Cities</a>
+                  <ul class="dropdown-subcontent">
+                    <li><a href="#">Getting around Lagos</a></li>
+                    <li><a href="#">Getting around Abuja</a></li>
+                    <li><a href="#">Getting around Port Harcourt</a></li>
+                    <li><a href="#">Getting around Ibadan</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Investor relations</a></li>
+            <li><a href="#">Autonomous</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="auth-buttons">
+      <span>🌐 EN</span>
+      <a href="#help" class="help-link">Help</a>
+      <a href="#login" class="btn btn-login">Log in</a>
+      <a href="#signup" class="btn btn-signup">Sign up</a>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- Hero Section -->
+<section class="hero">
+<div class="hero-container">
+<div class="hero-content">
+    <h1>Go anywhere with Uber</h1>
+<div class="ride-form">
+<div class="location-inputs">
+<div class="location-input">
+    <span>●</span>
+    <input type="text" placeholder="Pickup location">
+</div>
+<div class="location-input">
+    <span>■</span>
+    <input type="text" placeholder="Dropoff location">
+</div>
+</div>
+<div class="datetime-inputs">
+    <input type="date" class="datetime-input" value="2025-08-21">
+    <select class="datetime-input">
+    <option>Now</option>
+    <option>Schedule for later</option>
+    </select>
+</div>
+<div class="btn1">
+    <button class="btn-primary">See prices</button>
+    <button class="btnh">Log in to see your recent activity</button>
+</div>
+</div>
+</div>
+<div class="hero-image">
+    <img src="img/pic1.webp" alt="a woman coming out of her car">
+</div>
+</section>
+
+<!-- Suggestions Section -->
+<section class="suggestions">
+    <h2>Suggestions</h2>
+    <div class="suggestion-cards">
+        <div class="suggestion-card">
+            <div class="card-icon">
+                <img src="img/your-ride-image.png" alt="Ride">
+            </div>
+            <h3>Ride</h3>
+            <p>Go anywhere with Uber. Request a ride, hop in, and go.</p>
+            <a href="#" class="details-btn">Details</a>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="card-icon">
+                <img src="your-reserve-image.png" alt="Reserve">
+            </div>
+            <h3>Reserve</h3>
+            <p>Reserve your ride in advance so you can relax on the day of your trip.</p>
+            <a href="#" class="details-btn">Details</a>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="card-icon">
+                <img src="your-courier-image.png" alt="Courier">
+            </div>
+            <h3>Courier</h3>
+            <p>Uber makes same-day item delivery easier than ever.</p>
+            <a href="#" class="details-btn">Details</a>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Account Section -->
+    <section class="account-section">
+        <div class="account-container">
+            <div class="account-content">
+                <h2>Log in to see your account details</h2>
+                <p>View past trips, tailored suggestions, support resources, and more.</p>
+                <div class="account-buttons">
+                    <button class="btn-primary">Log in to your account</button>
+                    <button class="btn" style="background: transparent; border: 1px solid #333;">Create an account</button>
+                </div>
+            </div>
+            <div class="account-visual">
+                <img src="img/pic2.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+        <!-- Drive Section -->
+    <section class="account-section">
+        <div class="account-container">
+            <div class="account-visual">
+                <img src="img/pic3.webp" alt="Drive with Uber">
+            </div>
+            <div class="account-content">
+                <h2>Drive when you want, make <br> what you need</h2>
+                <p>Make money on your schedule with deliveries or rides—or <br> both. You can use your own car or choose a rental through Uber.</p>
+                <div class="account-buttons">
+                    <button class="btn-primary">Get started</button>
+                    <a href="#">Already have an account? Sign in</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Section -->
+    <section class="business-section">
+        <div class="business-container">
+            <div class="business-content">
+                <h2>The Uber you know, reimagined for business</h2>
+                <p>Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+                <div class="account-buttons">
+                    <button class="btn-primary">Get started</button>
+                    <button class="btn">Check out our solutions</button>
+                </div>
+            </div>
+            <div class="business-visual">
+                <img src="img/pic4.webp" alt="Uber for Business">
+            </div>
+        </div>
+    </section>
+
+<!-- App Download Section -->
+<section class="app-download">
+  <h2>It's easier in the apps</h2>
+  <div class="app-links">
+    <a href="#" class="app-link">
+      <div class="qr-code">
+        <img src="img/pic5.webp"alt="Uber app QR code">
+      </div>
+      <div>
+        <h3>Download the Uber app</h3>
+        <p>Scan to download</p>
+      </div>
+    </a>
+    <a href="#" class="app-link">
+      <div class="qr-code">
+        <img src="img/pic6.webp" alt="Driver app QR code">
+      </div>
+      <div>
+        <h3>Download the Driver app</h3>
+        <p>Scan to download</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our offerings</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Ride</a></li>
+                        <li><a href="#">Drive</a></li>
+                        <li><a href="#">Eat</a></li>
+                        <li><a href="#">Uber Freight</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Uber Health</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Global citizenship</h3>
+                    <ul>
+                        <li><a href="#">Safety</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Travel</h3>
+                    <ul>
+                        <li><a href="#">Reserve</a></li>
+                        <li><a href="#">Airports</a></li>
+                        <li><a href="#">Cities</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>
+                    <span>🌐 English</span>
+                    <span>📍 Lagos</span>
+                </div>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+            <div>
+                <p>&copy; 2025 Uber Technologies Inc.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="see">
+        <button class="see-prices-btn">See prices</button>
+    </div>
+</body>
+</html>
